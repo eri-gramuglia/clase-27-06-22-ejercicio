@@ -1,3 +1,4 @@
+<!--Esta página esta realizada por Erica Gramuglia-->
 <!--estructura básica de una pag web, tengo las cosas minimas que voy a necesitar-->
 <!DOCTYPE html
 ><!--etiqueta de apertura-->
@@ -9,37 +10,57 @@
   <!--En el head, que es una cabecera va a ir etiquetas que no tienen que ver con el cuerpo, sino con lo que está por fuera-->
   <head>
     <!--etiqueta de apertura-->
+    <meta name="author" content="Erica Gramuglia" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>MI PRIMER PÁGINA</title>
-    <!--el titulo lo que hace es poner una etiqueta en el titulo de la pestaña--></head
+    <!--el titulo lo que hace es poner una etiqueta en el titulo de la pestaña-->
+    <link
+      rel="shortcut icon"
+      href="https://th.bing.com/th/id/OIP.iKa3ar2EFsKNTY44EEN5uAHaHa?w=186&h=186&c=7&r=0&o=5&pid=1.7"
+      type="image/x-icon"
+    />
+    <!--cambia el icono de la pestaña-->
+    <!--<style>
+      h2 {
+        color: blueviolet;
+        font-size: 40px;
+      }
+    </style>
+         este selector utiliza la etiqueta estilo, pero hay que separar la parte de HTML de la de estilos, entonces hay que crear una carpeta que sea CSS, y colocar todos los estilos ahi--></head
   ><!--etiqueta de cierre-->
 
   <!--En body voy a tener todo el contenid de la página-->
+
+  <link rel="stylesheet" href="estilos.css" />
   <body>
     <!--etiqueta de apertura-->
     <!--hay 6 tipos de etiquetas "h", del 1 al 6, y debe de haber uno sólo, ésta etiqueta es lo q buscan los buscadores para q el usuario la encuentre-->
     <h1>ERICA GRAMUGLIA</h1>
     <!--lo muestra más grande y en negrita-->
     <!--"h1" va a ser el titulo más importante para el navegador-->
-    <h2>Descripción</h2>
+    <h2 style="color: crimson; font-size: 40px;">Descripción</h2>
     <!--lo muestra más chico y en negrita-->
     <!--etiqueta de párrafo, lo relleno con cualquier cosa-->
     <p>
       Me gusta aprender una actividad nueva, y estar aprendiendo a realizar
       páginas web, es lo más.
     </p>
-    <h4>Presentación-mi imagen</h4>
+    <h3>Presentación-mi imagen "Soy una cachorrita"</h3>
     <p>
       Así soy yo.... a veces solitaria, a veces social, otras con fiaca y ocio
       para ver si fluye mi imaginación. Me encanta la lectura. ¿qué leo?
       absolutamente todo lo que tenga letras, sigo leyendo hasta el final si me
       parece interesante a todo lo referido a mí, sino busco otra cosa para leer
     </p>
+    <!--imagen-->
+    <!--width="400" ancho de la imagen-->
+    <!--height="400"......alto de la imagen-->
     <img
     src=https://ideasnuevas.net/wp-content/uploads/2016/08/img_nombres_para_perros_originales_y_bonitos_5579_600-176x176.jpg
     alt="Perrito"/>
+    <img width="200" src="cachorro.webp" />
   </body>
   <!--etiqueta de cierre-->
 </html>
