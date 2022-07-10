@@ -1,2 +1,2 @@
-# clase-27-06-22-ejercicio
+# 1erClaseHTML-27-06-22
 Created with CodeSandbox
